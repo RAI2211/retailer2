@@ -1,16 +1,16 @@
+import Login from './retailer/login/login'
+import React from "react";
+import axios from 'axios';
+axios.defaults.withCredentials = true;
 
-
-function index() {
- 
+function Index() {
   return (
     <div>
-     Login Page 
+<Login />  
     </div>
-  )
+  );
 }
-export default index
-
-
+export default Index;
 
 
 
